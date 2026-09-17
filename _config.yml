@@ -113,7 +113,8 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-{% include button.html icon="github" text="GitHub" link="https://github.com/adamrizvi" color="#24292e" %}
+- title: Home
+  url: /
 
 #navigation_footer:
 #- title: <TITLE>
