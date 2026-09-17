@@ -4,12 +4,10 @@ layout: page
 permalink: /interests/
 ---
 
-My interests sit at the intersection of space science, astronomy, and computational methods.
+My general research fields sit at the intersection of astrophysics, computational physics, and satellite data analytics.
 
-## Topics I enjoy
+### Research Interests
 
-- Exoplanet discovery and characterisation
-- Machine learning applications in astrophysics
-- Statistical modelling and inference
-- Scientific computing and reproducible research
-- Reading about the latest developments in space science
+   - Exoplanet detection & characterisation
+   - Machine learning in astrophysics
+   - Signal processing and data analysis

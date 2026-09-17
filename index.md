@@ -1,10 +1,12 @@
 ---
 feature_text: |
-  ## Z
-  Subtitle
-feature_image: "https://cdn.esahubble.org/archives/images/large/heic1524a.jpg"
+  # Adam Rizvi
+#  Subtitle
+feature_image: "https://cdn.esahubble.org/archives/images/large/heic0612d.jpg" # "Hubble extrasolar planet search field in Sagittarius"
 
-title: About Alembic
+#"https://cdn.esahubble.org/archives/images/large/heic1524a.jpg" # "Clear to cloudy hot Jupiters" artist's impression
+
+title: Home
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 

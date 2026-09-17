@@ -5,4 +5,4 @@ permalink: /blog/
 collectionpage: posts
 ---
 
-Writing on space science, research, and computational ideas.
+A working progress...

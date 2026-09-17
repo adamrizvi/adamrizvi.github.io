@@ -4,13 +4,7 @@ layout: page
 permalink: /background/
 ---
 
-I am an MSc space science student with an interest in astrophysics, data analysis, and machine learning.
+### Education
 
-My work focuses on understanding exoplanet systems and using computational methods to extract physical insight from observational data.
-
-## Research interests
-
-- Exoplanets
-- Machine learning for scientific inference
-- Signal processing and data analysis
-- Space science and planetary systems
+   - University College London -- MSc Space Science and Engineering [2027]
+   - Keele University -- BSc (Hons) Physics with Astrophysics [2026]
