@@ -14,7 +14,13 @@
       </li>
     {% endfor %}
   </ul>
-  <button class="button  button--nav" aria-label="Menu toggle">
+  {% if site.github %}
+    <a class="button  button--nav  button--github" href="{{ site.github.url | default: 'https://github.com' }}" aria-label="{{ site.github.title | default: 'GitHub' }}">
+      {% include icon.html id=site.github.icon title=site.github.title %}
+      <span>{{ site.github.title | default: 'GitHub' }}</span>
+    </a>
+  {% endif %}
+  <button class="button  button--menu" aria-label="Menu toggle">
     {% include icon.html id="nav" title="Menu" %}
   </button>
 </nav>
@@ -25,7 +31,7 @@
 <script type="text/javascript">
   // Get list and button
   const navList = document.querySelector('.header .list--nav')
-  const button  = document.querySelector('.header .button--nav')
+  const button  = document.querySelector('.header .button--menu')
 
   // Hide nav and apply toggle
   const collapseNav = () => {
