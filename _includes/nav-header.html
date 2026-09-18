@@ -20,41 +20,7 @@
       <span>{{ site.github.title | default: 'GitHub' }}</span>
     </a>
   {% endif %}
-  <button class="button  button--menu" aria-label="Menu toggle">
-    {% include icon.html id="nav" title="Menu" %}
-  </button>
 </nav>
 {% else %}
   {% include nav-default.html %}
 {% endif %}
-
-<script type="text/javascript">
-  // Get list and button
-  const navList = document.querySelector('.header .list--nav')
-  const button  = document.querySelector('.header .button--menu')
-
-  // Hide nav and apply toggle
-  const collapseNav = () => {
-    if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-    } else {
-      navList.removeAttribute('style')
-    }
-
-    button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`)
-      if (navList.style.getPropertyValue('--listHeight')) {
-        navList.style.removeProperty('--listHeight')
-      } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-      }
-    }
-  }
-
-  collapseNav()
-
-  // Check on resize if to collapse nav
-  window.addEventListener('resize', () => {
-    collapseNav()
-  })
-</script>

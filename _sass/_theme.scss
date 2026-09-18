@@ -35,12 +35,25 @@ body {
   }
 }
 
+.header .container {
+  width: 100%;
+  max-width: none;
+  padding-right: 5%;
+}
+
 .header .nav {
   display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
-  overflow: hidden;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+.header .list--nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin: 0;
 }
 
 .feature {

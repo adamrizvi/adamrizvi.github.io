@@ -119,8 +119,8 @@ navigation_header:
   url: /background/
 - title: Interests
   url: /interests/
-- title: Blog
-  url: /blog/
+#- title: Blog
+#  url: /blog/
 
 #navigation_footer:
 #- title: <TITLE>
