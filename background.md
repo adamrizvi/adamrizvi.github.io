@@ -3,6 +3,8 @@ title: Background
 layout: page
 permalink: /background/
 hide_title: true
+
+feature_image: /images/hubble_probes_cotton_candy_planets.jpg
 ---
 
 ### Education
