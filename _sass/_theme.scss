@@ -111,6 +111,19 @@ body {
   }
 }
 
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 80%;
+}
+
 .small {
   padding-top: .8rem;
   color: $captionColour;
@@ -131,6 +144,7 @@ body {
   }
   .small {
     padding-top: 0;
+    color: $backgroundColour;
   }
 }
 
@@ -168,6 +182,9 @@ body {
 }
 
 .content {
+  a {
+    color: $bodyColour;
+  }
   @include breakpoint(break-1) {
     width: 62%;
   }
@@ -486,4 +503,9 @@ pre code {
     white-space: pre;
     overflow-x: scroll;
   }
+}
+
+.hanging-indent {
+  padding-left: 2em;
+  text-indent: -2em;
 }

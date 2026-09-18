@@ -7,3 +7,13 @@ In the VSCode PowerShell terminal, run
 3. jekyll serve --livereload
 
 Then open 'http://localhost:4000' in a browser or VSCode
+
+### Source
+
+[Instructions to set up the website](https://lexi-jones.github.io/website-creation/)
+
+[Template theme used](https://jekyllthemes.io/theme/alembic)
+
+### Usefull Stuff
+
+[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)

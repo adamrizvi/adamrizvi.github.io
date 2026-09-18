@@ -4,6 +4,12 @@
       <small class="small">&copy;  {{ site.time | date: '%Y' }} {{ site.title }}</small>
     </div>
 
+    <div class="footer-links">
+      <a class="github-link" href="mailto:adam.rizvi.26@ucl.ac.uk" aria-label="Email">{% include icon.html id="email" title="Email" %}<span>Email</span></a>
+      <a class="github-link" href="{{ site.github.url }}" aria-label="{{ site.github.title }}">{% include icon.html id="github" title="GitHub" %}<span>{{ site.github.title }}</span></a>
+      <a class="github-link" href="https://linkedin.com/in/rizvi-adam" aria-label="LinkedIn">{% include icon.html id="linkedin" title="LinkedIn" %}<span>LinkedIn</span></a>
+    </div>
+
     {% include nav-footer.html %}
   </div>
 </footer>
